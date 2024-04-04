@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static',filename='pred_style.css') }}">
+    <title>Prediction</title>
+</head>
+<body>
+    <section>
+        {% if result==1 %}
+        <section class="parallax-1">
+            <div class="parallax-inner">
+                <h1>Rainy Day</h1>
+            </div>
+        </section>
+        <h2>Tomorrow is going to be rainy day. Let the raindrops play their soothing melody, as you cozy up with a warm cup of tea and a good book.</h2>
+         {% endif %}
+        {% if result==0 %}
+        <section class="parallax-2">
+            <div class="parallax-inner">
+                <h1>Sunny Day</h1>
+            </div>
+        </section>
+        <h2>Tomorrow is going to be sunny day. Let the sun's warmth and sweetness of ice cream fill your day with happiness.</h2>
+        {% endif %}
+    </section>
+</body>
+</html>

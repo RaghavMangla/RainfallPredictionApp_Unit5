@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:0;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f2f2f2;
+}
+
+h1{
+    font-size:120px;
+    text-align:center;
+    color:rgba(0,0,0,.6);
+}
+
+.parallax-1{
+    background:url('images/rain.jpeg') no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.parallax-2{
+    background:url('images/sunny1.webp') no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.parallax-inner{
+    padding:10% 0;
+}
+
+h2{
+    font-size:32px;
+    color:#555;
+    text-align:center;
+    font-weight:300;
+    letter-spacing: 2px;
+    margin:20px 0 10px;
+
+}
