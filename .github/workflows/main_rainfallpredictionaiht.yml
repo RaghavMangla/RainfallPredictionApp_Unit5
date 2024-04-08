@@ -1,6 +1,6 @@
 # Docs for the Render Web Apps Deploy action
 
-name: Build and deploy Python app to Azure Web App - RainfallPredictionAiht
+name: Build and deploy Python app to Render Web App - RainfallPredictionAiht
 
 on:
   push:
